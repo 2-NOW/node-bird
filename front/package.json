@@ -1,0 +1,15 @@
+{
+  "name": "react-nodebird-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "author": "2-NOW",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.1.0"
+  }
+}
