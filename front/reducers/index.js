@@ -1,3 +1,5 @@
+import { HYDRATE } from 'next-redux-wrapper';
+
 const initialState = {
   user: {
     isLoggedIn: false,
@@ -43,6 +45,8 @@ const rootReducer = (state = initialState, action) => {
           user: null,
         },
       };
+    default:
+      return state;
   }
 };
 
